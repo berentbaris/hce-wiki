@@ -28,8 +28,8 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .ch{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;cursor:pointer;user-select:none}
 .chc{display:flex;align-items:center;gap:16px;flex:1;min-width:0}
 .avatar-wrap{width:52px;height:52px;flex-shrink:0;position:relative}
-.avatar-img{display:none}.portrait{width:100%;max-height:320px;object-fit:cover;border-radius:8px;margin-bottom:16px;border:1px solid var(--brd)}
-.avatar-fb{width:52px;height:52px;border-radius:10px;display:flex!important;align-items:center;justify-content:center;border:2px solid}
+.avatar-img{width:52px;height:52px;border-radius:10px;object-fit:cover}
+.avatar-fb{width:52px;height:52px;border-radius:10px;display:flex;align-items:center;justify-content:center;border:2px solid}
 .avatar-fb span{font-size:1.1rem;font-weight:800;letter-spacing:1px}
 .ctb h3{font-size:1.15rem;margin-bottom:2px}.meta{font-size:.82rem;color:var(--dim)}.ml{color:var(--text);font-weight:600}
 .ei{font-size:.8rem;color:var(--dim);transition:transform .2s;flex-shrink:0;margin-left:12px}
@@ -76,7 +76,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="mountain-king">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Mountain_king.jpg" alt="Mountain King" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">MK</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Mountain_king.jpg" alt="Mountain King" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">MK</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Mountain King</h3>
             <div class="meta"><span class="ml">Spec:</span> Protection &middot; <span class="ml">Race:</span> Dwarf &middot; <span class="ml">Gender:</span> Male &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -90,7 +90,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="sister-of-steel">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Sistersteel.jpg" alt="Sister of Steel" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">SS</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Sistersteel.jpg" alt="Sister of Steel" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">SS</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Sister of Steel</h3>
             <div class="meta"><span class="ml">Spec:</span> Protection &middot; <span class="ml">Race:</span> Dwarf &middot; <span class="ml">Gender:</span> Female &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -104,7 +104,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="brewmaster">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/brewmaster.jpg" alt="Brewmaster" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BR</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/brewmaster.jpg" alt="Brewmaster" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BR</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Brewmaster</h3>
             <div class="meta"><span class="ml">Spec:</span> Fury &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -118,7 +118,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="runemaster">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Runemaster.jpg" alt="Runemaster" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">RU</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Runemaster.jpg" alt="Runemaster" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">RU</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Runemaster</h3>
             <div class="meta"><span class="ml">Spec:</span> Fury &middot; <span class="ml">Race:</span> Tauren &middot; <span class="ml">Self-Found:</span> No</div>
@@ -132,7 +132,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="berserker">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/berserker.jpg" alt="Berserker" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BE</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/berserker.jpg" alt="Berserker" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BE</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Berserker</h3>
             <div class="meta"><span class="ml">Spec:</span> Protection &middot; <span class="ml">Race:</span> Troll &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -146,7 +146,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="blademaster">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/blademaster.jpg" alt="Blademaster" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BL</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/blademaster.jpg" alt="Blademaster" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BL</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Blademaster</h3>
             <div class="meta"><span class="ml">Spec:</span> Arms &middot; <span class="ml">Race:</span> Orc &middot; <span class="ml">Self-Found:</span> No</div>
@@ -160,7 +160,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="brave">
       <div class="ch" style="border-left:4px solid #C69B6D" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/brave.jpg" alt="Brave" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BR</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/brave.jpg" alt="Brave" class="avatar-img"><div class="avatar-fb" style="background:#C69B6D22;border-color:#C69B6D;display:none"><span style="color:#C69B6D">BR</span></div></div>
           <div class="ctb">
             <h3 style="color:#C69B6D">Brave</h3>
             <div class="meta"><span class="ml">Spec:</span> Arms &middot; <span class="ml">Race:</span> Tauren &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -176,7 +176,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="tinker">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/tinker.jpg" alt="Tinker" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">TI</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/tinker.jpg" alt="Tinker" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">TI</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Tinker</h3>
             <div class="meta"><span class="ml">Spec:</span> Combat &middot; <span class="ml">Race:</span> Gnome &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -190,7 +190,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="prospector">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/pros.jpg" alt="Prospector" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">PR</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/pros.jpg" alt="Prospector" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">PR</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Prospector</h3>
             <div class="meta"><span class="ml">Spec:</span> Subtlety &middot; <span class="ml">Race:</span> Dwarf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -204,7 +204,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="buccaneer">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Buccaneer.jpg" alt="Buccaneer" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">BU</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Buccaneer.jpg" alt="Buccaneer" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">BU</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Buccaneer</h3>
             <div class="meta"><span class="ml">Spec:</span> Assassination &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -218,7 +218,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="warden">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/warden.jpg" alt="Warden" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">WA</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/warden.jpg" alt="Warden" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">WA</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Warden</h3>
             <div class="meta"><span class="ml">Spec:</span> Assassination &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Gender:</span> Female &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -232,7 +232,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="demon-hunter">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/DH.jpg" alt="Demon Hunter" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">DH</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/DH.jpg" alt="Demon Hunter" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">DH</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Demon Hunter</h3>
             <div class="meta"><span class="ml">Spec:</span> Combat &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -246,7 +246,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="dark-ranger">
       <div class="ch" style="border-left:4px solid #FFF468" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/dark_ranger.jpg" alt="Dark Ranger" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">DR</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/dark_ranger.jpg" alt="Dark Ranger" class="avatar-img"><div class="avatar-fb" style="background:#FFF46822;border-color:#FFF468;display:none"><span style="color:#FFF468">DR</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFF468">Dark Ranger</h3>
             <div class="meta"><span class="ml">Spec:</span> Subtlety &middot; <span class="ml">Race:</span> Undead &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -262,7 +262,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="pyremaster">
       <div class="ch" style="border-left:4px solid #8788EE" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Pyremaster.jpg" alt="Pyremaster" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">PY</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Pyremaster.jpg" alt="Pyremaster" class="avatar-img"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">PY</span></div></div>
           <div class="ctb">
             <h3 style="color:#8788EE">Pyremaster</h3>
             <div class="meta"><span class="ml">Spec:</span> Destruction &middot; <span class="ml">Race:</span> Orc &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -276,7 +276,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="death-knight">
       <div class="ch" style="border-left:4px solid #8788EE" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Death_Knight.jpg" alt="Death Knight" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">DK</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Death_Knight.jpg" alt="Death Knight" class="avatar-img"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">DK</span></div></div>
           <div class="ctb">
             <h3 style="color:#8788EE">Death Knight</h3>
             <div class="meta"><span class="ml">Spec:</span> Demonology &middot; <span class="ml">Race:</span> Undead &middot; <span class="ml">Gender:</span> Male &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -290,7 +290,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="necromancer">
       <div class="ch" style="border-left:4px solid #8788EE" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Necromancer.jpg" alt="Necromancer" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">NE</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Necromancer.jpg" alt="Necromancer" class="avatar-img"><div class="avatar-fb" style="background:#8788EE22;border-color:#8788EE;display:none"><span style="color:#8788EE">NE</span></div></div>
           <div class="ctb">
             <h3 style="color:#8788EE">Necromancer</h3>
             <div class="meta"><span class="ml">Spec:</span> Affliction &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Alliance only</div>
@@ -306,7 +306,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="druid-of-the-claw">
       <div class="ch" style="border-left:4px solid #FF7C0A" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Claw.jpg" alt="Druid of the Claw" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">DC</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Claw.jpg" alt="Druid of the Claw" class="avatar-img"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">DC</span></div></div>
           <div class="ctb">
             <h3 style="color:#FF7C0A">Druid of the Claw</h3>
             <div class="meta"><span class="ml">Spec:</span> Feral &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -320,7 +320,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="dragonsworn">
       <div class="ch" style="border-left:4px solid #FF7C0A" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/dragonsworn.jpg" alt="Dragonsworn" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">DR</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/dragonsworn.jpg" alt="Dragonsworn" class="avatar-img"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">DR</span></div></div>
           <div class="ctb">
             <h3 style="color:#FF7C0A">Dragonsworn</h3>
             <div class="meta"><span class="ml">Spec:</span> Balance &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -334,7 +334,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="plagueshifter">
       <div class="ch" style="border-left:4px solid #FF7C0A" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Plagueshifter.jpg" alt="Plagueshifter" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">PL</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Plagueshifter.jpg" alt="Plagueshifter" class="avatar-img"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">PL</span></div></div>
           <div class="ctb">
             <h3 style="color:#FF7C0A">Plagueshifter</h3>
             <div class="meta"><span class="ml">Spec:</span> Restoration &middot; <span class="ml">Race:</span> Tauren &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -348,7 +348,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="savagekin">
       <div class="ch" style="border-left:4px solid #FF7C0A" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Savagekin.jpg" alt="Savagekin" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">SA</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Savagekin.jpg" alt="Savagekin" class="avatar-img"><div class="avatar-fb" style="background:#FF7C0A22;border-color:#FF7C0A;display:none"><span style="color:#FF7C0A">SA</span></div></div>
           <div class="ctb">
             <h3 style="color:#FF7C0A">Savagekin</h3>
             <div class="meta"><span class="ml">Spec:</span> Balance &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -364,7 +364,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="beastmaster">
       <div class="ch" style="border-left:4px solid #AAD372" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Orcbeastmaster.jpg" alt="Beastmaster" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">BE</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Orcbeastmaster.jpg" alt="Beastmaster" class="avatar-img"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">BE</span></div></div>
           <div class="ctb">
             <h3 style="color:#AAD372">Beastmaster</h3>
             <div class="meta"><span class="ml">Spec:</span> Beast Mastery &middot; <span class="ml">Race:</span> Orc &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -378,7 +378,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="mountaineer">
       <div class="ch" style="border-left:4px solid #AAD372" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Mountaineer.jpg" alt="Mountaineer" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">MO</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Mountaineer.jpg" alt="Mountaineer" class="avatar-img"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">MO</span></div></div>
           <div class="ctb">
             <h3 style="color:#AAD372">Mountaineer</h3>
             <div class="meta"><span class="ml">Spec:</span> Marksmanship &middot; <span class="ml">Race:</span> Dwarf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -392,7 +392,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="elven-ranger">
       <div class="ch" style="border-left:4px solid #AAD372" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/ElvenRanger.jpg" alt="Elven Ranger" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">ER</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/ElvenRanger.jpg" alt="Elven Ranger" class="avatar-img"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">ER</span></div></div>
           <div class="ctb">
             <h3 style="color:#AAD372">Elven Ranger</h3>
             <div class="meta"><span class="ml">Spec:</span> Survival &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -406,7 +406,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="wilderness-stalker">
       <div class="ch" style="border-left:4px solid #AAD372" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Wildernessstalker.jpg" alt="Wilderness Stalker" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">WS</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Wildernessstalker.jpg" alt="Wilderness Stalker" class="avatar-img"><div class="avatar-fb" style="background:#AAD37222;border-color:#AAD372;display:none"><span style="color:#AAD372">WS</span></div></div>
           <div class="ctb">
             <h3 style="color:#AAD372">Wilderness Stalker</h3>
             <div class="meta"><span class="ml">Spec:</span> Survival &middot; <span class="ml">Race:</span> Troll &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -422,7 +422,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="earthcaller">
       <div class="ch" style="border-left:4px solid #0070DD" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Earthcaller.jpg" alt="Earthcaller" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">EA</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Earthcaller.jpg" alt="Earthcaller" class="avatar-img"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">EA</span></div></div>
           <div class="ctb">
             <h3 style="color:#0070DD">Earthcaller</h3>
             <div class="meta"><span class="ml">Spec:</span> Enhancement &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -436,7 +436,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="witch-doctor">
       <div class="ch" style="border-left:4px solid #0070DD" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/witch_doctor.jpg" alt="Witch Doctor" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">WD</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/witch_doctor.jpg" alt="Witch Doctor" class="avatar-img"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">WD</span></div></div>
           <div class="ctb">
             <h3 style="color:#0070DD">Witch Doctor</h3>
             <div class="meta"><span class="ml">Spec:</span> Restoration &middot; <span class="ml">Race:</span> Troll &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -450,7 +450,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="spiritwalker">
       <div class="ch" style="border-left:4px solid #0070DD" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Spirit.jpg" alt="Spiritwalker" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">SP</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Spirit.jpg" alt="Spiritwalker" class="avatar-img"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">SP</span></div></div>
           <div class="ctb">
             <h3 style="color:#0070DD">Spiritwalker</h3>
             <div class="meta"><span class="ml">Spec:</span> Elemental &middot; <span class="ml">Race:</span> Tauren &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -464,7 +464,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="spirit-champion">
       <div class="ch" style="border-left:4px solid #0070DD" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/spirit_champ.jpg" alt="Spirit Champion" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">SC</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/spirit_champ.jpg" alt="Spirit Champion" class="avatar-img"><div class="avatar-fb" style="background:#0070DD22;border-color:#0070DD;display:none"><span style="color:#0070DD">SC</span></div></div>
           <div class="ctb">
             <h3 style="color:#0070DD">Spirit Champion</h3>
             <div class="meta"><span class="ml">Spec:</span> Enhancement &middot; <span class="ml">Race:</span> Orc &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -480,7 +480,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="scarlet-champion">
       <div class="ch" style="border-left:4px solid #F48CBA" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/scarlet_champ.jpg" alt="Scarlet Champion" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">SC</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/scarlet_champ.jpg" alt="Scarlet Champion" class="avatar-img"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">SC</span></div></div>
           <div class="ctb">
             <h3 style="color:#F48CBA">Scarlet Champion</h3>
             <div class="meta"><span class="ml">Spec:</span> Protection &middot; <span class="ml">Race:</span> Human &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -494,7 +494,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="exemplar">
       <div class="ch" style="border-left:4px solid #F48CBA" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Exemplar.jpg" alt="Exemplar" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">EX</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Exemplar.jpg" alt="Exemplar" class="avatar-img"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">EX</span></div></div>
           <div class="ctb">
             <h3 style="color:#F48CBA">Exemplar</h3>
             <div class="meta"><span class="ml">Spec:</span> Retribution &middot; <span class="ml">Race:</span> Human &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -508,7 +508,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="templar">
       <div class="ch" style="border-left:4px solid #F48CBA" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Templar.png" alt="Templar" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">TE</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Templar.png" alt="Templar" class="avatar-img"><div class="avatar-fb" style="background:#F48CBA22;border-color:#F48CBA;display:none"><span style="color:#F48CBA">TE</span></div></div>
           <div class="ctb">
             <h3 style="color:#F48CBA">Templar</h3>
             <div class="meta"><span class="ml">Spec:</span> Holy &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -524,7 +524,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="priestess-of-the-moon">
       <div class="ch" style="border-left:4px solid #FFFFFF" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Moon.jpg" alt="Priestess of the Moon" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">PM</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Moon.jpg" alt="Priestess of the Moon" class="avatar-img"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">PM</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFFFFF">Priestess of the Moon</h3>
             <div class="meta"><span class="ml">Spec:</span> Holy &middot; <span class="ml">Race:</span> Night Elf &middot; <span class="ml">Gender:</span> Female &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -538,7 +538,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="apothecary">
       <div class="ch" style="border-left:4px solid #FFFFFF" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Apothecary.jpg" alt="Apothecary" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">AP</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Apothecary.jpg" alt="Apothecary" class="avatar-img"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">AP</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFFFFF">Apothecary</h3>
             <div class="meta"><span class="ml">Spec:</span> Discipline &middot; <span class="ml">Race:</span> Undead &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -552,7 +552,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="shadow-hunter">
       <div class="ch" style="border-left:4px solid #FFFFFF" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/shadow_hunter.jpg" alt="Shadow Hunter" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">SH</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/shadow_hunter.jpg" alt="Shadow Hunter" class="avatar-img"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">SH</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFFFFF">Shadow Hunter</h3>
             <div class="meta"><span class="ml">Spec:</span> Shadow &middot; <span class="ml">Race:</span> Troll &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -566,7 +566,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="lightslayer">
       <div class="ch" style="border-left:4px solid #FFFFFF" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Lightslayer.jpg" alt="Lightslayer" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">LI</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Lightslayer.jpg" alt="Lightslayer" class="avatar-img"><div class="avatar-fb" style="background:#FFFFFF22;border-color:#FFFFFF;display:none"><span style="color:#FFFFFF">LI</span></div></div>
           <div class="ctb">
             <h3 style="color:#FFFFFF">Lightslayer</h3>
             <div class="meta"><span class="ml">Spec:</span> Shadow &middot; <span class="ml">Race:</span> Undead &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -582,7 +582,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="bloodmage">
       <div class="ch" style="border-left:4px solid #3FC7EB" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Bloodmage.jpg" alt="Bloodmage" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">BL</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Bloodmage.jpg" alt="Bloodmage" class="avatar-img"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">BL</span></div></div>
           <div class="ctb">
             <h3 style="color:#3FC7EB">Bloodmage</h3>
             <div class="meta"><span class="ml">Spec:</span> Fire &middot; <span class="ml">Race:</span> Undead &middot; <span class="ml">Self-Found:</span> No</div>
@@ -596,7 +596,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="techno-mage">
       <div class="ch" style="border-left:4px solid #3FC7EB" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Techno-mage.jpg" alt="Techno-mage" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">TE</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Techno-mage.jpg" alt="Techno-mage" class="avatar-img"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">TE</span></div></div>
           <div class="ctb">
             <h3 style="color:#3FC7EB">Techno-mage</h3>
             <div class="meta"><span class="ml">Spec:</span> Arcane &middot; <span class="ml">Race:</span> Gnome &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -610,7 +610,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="spellblade">
       <div class="ch" style="border-left:4px solid #3FC7EB" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Spellblade.jpg" alt="Spellblade" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">SP</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Spellblade.jpg" alt="Spellblade" class="avatar-img"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">SP</span></div></div>
           <div class="ctb">
             <h3 style="color:#3FC7EB">Spellblade</h3>
             <div class="meta"><span class="ml">Spec:</span> Frost &middot; <span class="ml">Race:</span> Any &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -624,7 +624,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="hedge-wizard">
       <div class="ch" style="border-left:4px solid #3FC7EB" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/Hedgewizard.jpg" alt="Hedge Wizard" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">HW</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/Hedgewizard.jpg" alt="Hedge Wizard" class="avatar-img"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">HW</span></div></div>
           <div class="ctb">
             <h3 style="color:#3FC7EB">Hedge Wizard</h3>
             <div class="meta"><span class="ml">Spec:</span> Fire &middot; <span class="ml">Race:</span> Troll &middot; <span class="ml">Self-Found:</span> Yes</div>
@@ -638,7 +638,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
     <div class="cc" id="archmage-of-kirin-tor">
       <div class="ch" style="border-left:4px solid #3FC7EB" onclick="this.parentElement.classList.toggle('ex')">
         <div class="chc">
-          <div class="avatar-wrap"><img src="portraits/kirin_tor.jpg" alt="Archmage of Kirin Tor" class="avatar-img" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">AT</span></div></div>
+          <div class="avatar-wrap"><img src="portraits/kirin_tor.jpg" alt="Archmage of Kirin Tor" class="avatar-img"><div class="avatar-fb" style="background:#3FC7EB22;border-color:#3FC7EB;display:none"><span style="color:#3FC7EB">AT</span></div></div>
           <div class="ctb">
             <h3 style="color:#3FC7EB">Archmage of Kirin Tor</h3>
             <div class="meta"><span class="ml">Spec:</span> Frost &middot; <span class="ml">Race:</span> Human &middot; <span class="ml">Self-Found:</span> No</div>
@@ -656,7 +656,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
 <script>
 function fc(){const q=document.getElementById('si').value.toLowerCase();document.querySelectorAll('.cc').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none'});document.querySelectorAll('.cs').forEach(s=>{const v=[...s.querySelectorAll('.cc')].filter(c=>c.style.display!=='none');s.style.display=v.length===0?'none':''})}
 if(window.location.hash){const el=document.querySelector(window.location.hash);if(el&&el.classList.contains('cc')){el.classList.add('ex');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),100)}}
-document.querySelectorAll('.cc').forEach(card=>{const img=card.querySelector('.avatar-img');if(img){const src=img.getAttribute('src');if(src){const p=document.createElement('img');p.src=src;p.className='portrait';p.alt=img.alt;p.loading='lazy';const cb=card.querySelector('.cb');if(cb)cb.insertBefore(p,cb.firstChild)}}});
+
 </script>
 </body>
 </html>
