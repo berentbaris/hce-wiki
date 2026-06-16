@@ -28,7 +28,7 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .ch{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;cursor:pointer;user-select:none}
 .chc{display:flex;align-items:center;gap:16px;flex:1;min-width:0}
 .avatar-wrap{width:52px;height:52px;flex-shrink:0;position:relative}
-.avatar-img{display:none}
+.avatar-img{display:none}.portrait{width:100%;max-height:320px;object-fit:cover;border-radius:8px;margin-bottom:16px;border:1px solid var(--brd)}
 .avatar-fb{width:52px;height:52px;border-radius:10px;display:flex!important;align-items:center;justify-content:center;border:2px solid}
 .avatar-fb span{font-size:1.1rem;font-weight:800;letter-spacing:1px}
 .ctb h3{font-size:1.15rem;margin-bottom:2px}.meta{font-size:.82rem;color:var(--dim)}.ml{color:var(--text);font-weight:600}
@@ -656,6 +656,7 @@ footer{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bor
 <script>
 function fc(){const q=document.getElementById('si').value.toLowerCase();document.querySelectorAll('.cc').forEach(c=>{c.style.display=c.textContent.toLowerCase().includes(q)?'':'none'});document.querySelectorAll('.cs').forEach(s=>{const v=[...s.querySelectorAll('.cc')].filter(c=>c.style.display!=='none');s.style.display=v.length===0?'none':''})}
 if(window.location.hash){const el=document.querySelector(window.location.hash);if(el&&el.classList.contains('cc')){el.classList.add('ex');setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),100)}}
+document.querySelectorAll('.cc').forEach(card=>{const img=card.querySelector('.avatar-img');if(img){const src=img.getAttribute('src');if(src){const p=document.createElement('img');p.src=src;p.className='portrait';p.alt=img.alt;p.loading='lazy';const cb=card.querySelector('.cb');if(cb)cb.insertBefore(p,cb.firstChild)}}});
 </script>
 </body>
 </html>
