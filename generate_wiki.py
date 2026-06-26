@@ -6,8 +6,8 @@ import re
 import html
 import os
 
-LUA_DIR = "/sessions/relaxed-busy-hypatia/mnt/wow_addon/HardcoreClassesEnhanced"
-OUT_FILE = "/sessions/relaxed-busy-hypatia/mnt/hce-wiki/index.html"
+LUA_DIR = r"C:\wow_addon\HardcoreClassesEnhanced"
+OUT_FILE = r"C:\hce-wiki\index.html"
 
 # ── Portrait filename mapping ──
 PORTRAIT_MAP = {
@@ -27,10 +27,10 @@ PORTRAIT_MAP = {
     "Pyremaster": "Pyremaster.jpg",
     "Death Knight": "Death_Knight.jpg",
     "Necromancer": "Necromancer.jpg",
-    "Graven One": None,
+    "Graven One": "graven.jpg",
     "Druid of the Claw": "Claw.jpg",
     "Dragonsworn": "dragonsworn.jpg",
-    "Ley Walker": None,
+    "Ley Walker": "ley.jpg",
     "Plagueshifter": "Plagueshifter.jpg",
     "Savagekin": "Savagekin.jpg",
     "Beastmaster": "Orcbeastmaster.jpg",
@@ -39,7 +39,7 @@ PORTRAIT_MAP = {
     "Wilderness Stalker": "Wildernessstalker.jpg",
     "Earthcaller": "Earthcaller.jpg",
     "Witch Doctor": "witch_doctor.jpg",
-    "Spiritwalker": "Spirit.jpg",
+    "Spiritwalker": "spirit_walk.jpg",
     "Spirit Champion": "spirit_champ.jpg",
     "Scarlet Champion": "scarlet_champ.jpg",
     "Exemplar": "Exemplar.jpg",
