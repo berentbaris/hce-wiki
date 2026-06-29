@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Generate index.html for HCE Wiki from Lua data files.
+Generate index.html for CCE Wiki from Lua data files.
 """
 import re
 import html
 import os
 
 LUA_DIR = r"C:\wow_addon\HardcoreClassesEnhanced"
-OUT_FILE = r"C:\hce-wiki\index.html"
+OUT_FILE = r"C:\cce-wiki\index.html"
 
 # ── Portrait filename mapping ──
 PORTRAIT_MAP = {
@@ -53,6 +53,7 @@ PORTRAIT_MAP = {
     "Spellblade": "Spellblade.jpg",
     "Hedge Wizard": "Hedgewizard.jpg",
     "Archmage of Kirin Tor": "kirin_tor.jpg",
+    "Barbarian": "barbarian.jpg",
 }
 
 CLASS_ORDER = [
@@ -68,9 +69,9 @@ CLASS_ORDER = [
 ]
 
 CHAR_ORDER_BY_CLASS = {
-    "WARRIOR": ["Mountain King", "Sister of Steel", "Brewmaster", "Runemaster", "Berserker", "Blademaster", "Brave"],
-    "ROGUE": ["Tinker", "Prospector", "Buccaneer", "Warden", "Demon Hunter", "Dark Ranger"],
-    "WARLOCK": ["Pyremaster", "Death Knight", "Necromancer", "Graven One"],
+    "WARRIOR": ["Mountain King", "Sister of Steel", "Brewmaster", "Runemaster", "Berserker", "Blademaster", "Brave", "Tinker"],
+    "ROGUE": ["Barbarian", "Prospector", "Buccaneer", "Warden", "Demon Hunter"],
+    "WARLOCK": ["Pyremaster", "Death Knight", "Necromancer"],
     "DRUID": ["Druid of the Claw", "Dragonsworn", "Ley Walker", "Plagueshifter", "Savagekin"],
     "HUNTER": ["Beastmaster", "Mountaineer", "Elven Ranger", "Wilderness Stalker"],
     "SHAMAN": ["Earthcaller", "Witch Doctor", "Spiritwalker", "Spirit Champion"],
@@ -170,7 +171,7 @@ def parse_q_from_text(text):
 def parse_character_data(text):
     # Parse challenge descriptions
     challenge_descs = {}
-    cd_start = text.find("HCE.ChallengeDescriptions")
+    cd_start = text.find("CCE.ChallengeDescriptions")
     if cd_start >= 0:
         brace = text.find("{", cd_start)
         cd_block = extract_braced_block(text, brace + 1)
@@ -178,7 +179,7 @@ def parse_character_data(text):
             challenge_descs[m.group(1)] = m.group(2).replace('\\"', '"').replace("\\'", "'")
 
     characters = {}
-    chars_start = text.find("HCE.Characters = {")
+    chars_start = text.find("CCE.Characters = {")
     if chars_start < 0:
         return characters, challenge_descs
 
@@ -610,8 +611,8 @@ footer{{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bo
 </div>
 <div class="about"><div class="ag">
   <div class="ac"><h3>Real-Time Tracking</h3><p>The addon monitors equipment, talents, quests, challenges, and more in real time. Violations are flagged instantly with alerts.</p></div>
-  <div class="ac"><h3>Requirements Panel</h3><p>A persistent, draggable checklist: green checkmarks for met rules, red crosses for violations, grey for level-locked requirements. Access via <code>/hce panel</code>.</p></div>
-  <div class="ac"><h3>Auto-Detection</h3><p>Your enhanced class is determined by race, gender, and class. The addon detects it on login. Use <code>/hce pick</code> to choose manually.</p></div>
+  <div class="ac"><h3>Requirements Panel</h3><p>A persistent, draggable checklist: green checkmarks for met rules, red crosses for violations, grey for level-locked requirements. Access via <code>/cce panel</code>.</p></div>
+  <div class="ac"><h3>Auto-Detection</h3><p>Your enhanced class is determined by race, gender, and class. The addon detects it on login. Use <code>/cce pick</code> to choose manually.</p></div>
   <div class="ac"><h3>Installation</h3><p>Drop the <code>HardcoreClassesEnhanced</code> folder into your <code>Interface/AddOns</code> directory. Works with Classic Era (Interface 11507).</p></div>
 </div></div>
 <nav class="cn">{nav_links}</nav>
