@@ -32,7 +32,7 @@ PORTRAIT_MAP = {
     "Dragonsworn": "dragonsworn.jpg",
     "Ley Walker": "ley.jpg",
     "Plagueshifter": "Plagueshifter.jpg",
-    "Savagekin": "Savagekin.jpg",
+    "Savagekin": "savage.jpg",
     "Beastmaster": "Orcbeastmaster.jpg",
     "Mountaineer": "Mountaineer.jpg",
     "Elven Ranger": "ElvenRanger.jpg",
