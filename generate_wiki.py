@@ -6,7 +6,7 @@ import re
 import html
 import os
 
-LUA_DIR = r"C:\wow_addon\HardcoreClassesEnhanced"
+LUA_DIR = r"C:\wow_addon\ClassicClassesEnhanced"
 OUT_FILE = r"C:\cce-wiki\index.html"
 
 # ── Portrait filename mapping ──
@@ -557,7 +557,7 @@ def generate_html(characters, lore, talents, challenge_descs):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hardcore Classes Enhanced — Wiki</title>
+<title>Classic Classes Enhanced — Wiki</title>
 <style>
 :root{{--bg:#1a1a2e;--bg2:#16213e;--bg3:#0f3460;--text:#e0e0e0;--dim:#999;--gold:#ffd700;--brd:#2a2a4a}}
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -603,8 +603,8 @@ footer{{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bo
 </head>
 <body>
 <div class="hero">
-  <h1>Hardcore Classes Enhanced</h1>
-  <p class="sub">{total_chars} lore-based character archetypes for WoW Classic Hardcore. Pick an enhanced class and the addon tracks your challenge rules, gear restrictions, quest milestones, and talent requirements as you level.</p>
+  <h1>Classic Classes Enhanced</h1>
+  <p class="sub">{total_chars} lore-based character archetypes for WoW Classic. Pick an enhanced class and the addon tracks your challenge rules, gear restrictions, quest milestones, and talent requirements as you level.</p>
   <span class="badge">v0.8.6</span>
   <span class="badge">WoW Classic Era</span>
   <span class="badge">{total_chars} Enhanced Classes</span>
@@ -613,13 +613,13 @@ footer{{text-align:center;padding:40px 20px;color:var(--dim);font-size:.85rem;bo
   <div class="ac"><h3>Real-Time Tracking</h3><p>The addon monitors equipment, talents, quests, challenges, and more in real time. Violations are flagged instantly with alerts.</p></div>
   <div class="ac"><h3>Requirements Panel</h3><p>A persistent, draggable checklist: green checkmarks for met rules, red crosses for violations, grey for level-locked requirements. Access via <code>/cce panel</code>.</p></div>
   <div class="ac"><h3>Auto-Detection</h3><p>Your enhanced class is determined by race, gender, and class. The addon detects it on login. Use <code>/cce pick</code> to choose manually.</p></div>
-  <div class="ac"><h3>Installation</h3><p>Drop the <code>HardcoreClassesEnhanced</code> folder into your <code>Interface/AddOns</code> directory. Works with Classic Era (Interface 11507).</p></div>
+  <div class="ac"><h3>Installation</h3><p>Drop the <code>ClassicClassesEnhanced</code> folder into your <code>Interface/AddOns</code> directory. Works with Classic Era (Interface 11507).</p></div>
 </div></div>
 <nav class="cn">{nav_links}</nav>
 <div class="sb"><input type="text" id="si" placeholder="Search classes, challenges, talents..." oninput="fc()"></div>
 {chr(10).join(sections)}
 <footer>
-  <p>Hardcore Classes Enhanced by <strong>Beba</strong></p>
+  <p>Classic Classes Enhanced by <strong>Beba</strong></p>
   <p><a href="https://buymeacoffee.com/berentbaris">Buy Me a Coffee</a></p>
 </footer>
 <script>
